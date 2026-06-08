@@ -1,0 +1,12 @@
+relationship AutoDetected_d1132efc-48e4-40af-9533-cdf703102ca2
+	fromColumn: Sales.CustomerKey
+	toColumn: Customer.CustomerKey
+
+relationship AutoDetected_588d01eb-5e10-4e63-9843-d7922f7ce238
+	fromColumn: Sales.ProductKey
+	toColumn: Product.ProductKey
+
+relationship bdefaaed-85ae-d8b0-4c83-99f684500541
+	fromColumn: Sales.OrderDateKey
+	toColumn: Date.DateKey
+
